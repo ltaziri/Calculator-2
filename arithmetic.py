@@ -1,5 +1,5 @@
 def add(num1, num2):
-    """add num1 to num2"""
+    """adding num1 plus num2"""
 
     return num1 + num2
 
@@ -17,7 +17,7 @@ def multiply(num1, num2):
 
 
 def divide(num1, num2):
-    """divide num1 by num2"""
+    """devide num1 by num2"""
 
     return float(num1) / float(num2)
 
@@ -35,12 +35,12 @@ def cube(num1):
 
 
 def power(num1, num2):
-    """num1 to the power of num2"""
+    """num1 to the num2 power"""
 
     return num1 ** num2
 
 
 def mod(num1, num2):
     """remainder when num1 is divided by num2"""
-    
+
     return num1 % num2
