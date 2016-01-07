@@ -37,6 +37,10 @@ def calculator():
         elif tokens[0] == "pow":
             num_power = power(int(tokens[1]), int(tokens[2]))
             print num_power
+        elif tokens[0] == "mod":
+            num_mod = mod(int(tokens[1]), int(tokens[2]))
+            print num_mod
+            
 
 
           
