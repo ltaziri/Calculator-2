@@ -28,6 +28,9 @@ def calculator():
         elif tokens[0] == "/":
             division = divide(int(tokens[1]), int(tokens[2]))
             print division
+        elif tokens[0] == "square":
+            num_square = square(int(tokens[1]))
+            print num_square
         
 
 
