@@ -20,7 +20,7 @@ def calculator():
             int_tokens = [tokens[0]]
             for token in tokens[1: ]:
                 int_tokens.append(int(token))
-            print int_tokens
+            # works for everything but strings in [1:]
             if int_tokens[0] == "+":
                 addition = add(int_tokens[1], int_tokens[2])
                 print addition
