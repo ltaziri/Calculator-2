@@ -19,6 +19,16 @@ def calculator():
         elif tokens[0] == "+":
             addition = add(int(tokens[1]), int(tokens[2]))
             print addition
+        elif tokens[0] == "-":
+            subtraction = subtract(int(tokens[1]), int(tokens[2]))
+            print subtraction
+        elif tokens[0] == "*":
+            multiplication = multiply(int(tokens[1]), int(tokens[2]))
+            print multiplication
+        elif tokens[0] == "/":
+            division = divide(int(tokens[1]), int(tokens[2]))
+            print division
+        
 
 
           
