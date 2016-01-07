@@ -36,9 +36,10 @@ def cube(num1):
 
 def power(num1, num2):
     """num1 to the num2 power"""
-
-    return num1 ** num2
-
+    if num2 > 0:
+        return float(num1) ** float(num2)
+    else:
+        return (1.0/(float(num1) ** float(num2)))
 
 def mod(num1, num2):
     """remainder when num1 is divided by num2"""
