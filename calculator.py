@@ -34,6 +34,9 @@ def calculator():
         elif tokens[0] == "cube":
             num_cube = cube(int(tokens[1]))
             print num_cube
+        elif tokens[0] == "pow":
+            num_power = power(int(tokens[1]), int(tokens[2]))
+            print num_power
 
 
           
