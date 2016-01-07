@@ -31,7 +31,9 @@ def calculator():
         elif tokens[0] == "square":
             num_square = square(int(tokens[1]))
             print num_square
-        
+        elif tokens[0] == "cube":
+            num_cube = cube(int(tokens[1]))
+            print num_cube
 
 
           
